@@ -94,6 +94,9 @@ function App() {
   return (
     <div class="App">
       <h1>BAMBOO-V1 to BAMBOO-V2 Converter</h1>
+      <div>
+        <a href="https://github.com/Pandaswapdex/bamboo_converter">Github</a>
+      </div>
       <h2>Wallet</h2>
       {wallet.status === 'connected' ? (
         <>
